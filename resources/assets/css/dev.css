@@ -1,0 +1,35 @@
+.page-tmp {
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    background-size: cover;
+    padding: 115px 20px 40px;
+}
+
+.car-tmp {
+    padding: 25px 5px 5px 25px;
+    margin: 0px 5px 5px 5px;
+    background-color: beige;
+}
+
+.admin-page .box-wrapper .upload-block .uploaded-photo img {
+    max-height: 100px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.catalog-block .sticky-filters .save-search.active svg {
+    color: #FB4A4A;
+}
+
+.catalog-block .sticky-filters .save-search.active svg path {
+    fill: #FB4A4A;
+    stroke: #FB4A4A;
+}
+
+.noty_theme__mint.noty_type__confirm, .noty_theme__mint.noty_type__information {
+    background-color: grey;
+    border-bottom: 1px solid #7473e8;
+    color: #fff;
+}

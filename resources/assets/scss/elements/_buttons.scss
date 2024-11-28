@@ -1,0 +1,194 @@
+.btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 14px;
+	min-height: 40px;	
+	border-radius: 8px;
+	border: 1px solid transparent;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1;
+	box-shadow: none !important;
+	outline: none !important;
+	-webkit-appearance: initial;
+	svg {
+		color: inherit;
+		width: 18px;
+		min-width: 18px;
+		height: 18px;
+	}
+	&:disabled {
+		pointer-events: none;
+	}
+	&.disabled {
+		pointer-events: none;
+	}
+	&.btn-big {
+		min-height: 50px;	
+		padding: 15px;
+	}
+	&.btn-small {
+		padding: 7px 14px;
+		min-height: 34px;
+	}
+	&.btn-tiny {
+		padding: 6px 14px;
+		font-size: 13px;
+		font-weight: 300;
+		min-height: 30px;
+		svg {
+			color: inherit;
+			width: 16px;
+			min-width: 16px;
+			height: 16px;
+		}
+	}
+	&.btn-primary {
+		background: $brand;
+		border-color: $brand;
+		color: $white;
+		&:hover {
+			background: $light-green;
+			border-color: $light-green;
+			color: $white;
+		}
+		&:focus-visible {
+			background: $green;
+			border-color: $green;
+			color: $white;
+		}
+		&:active {
+			background: $green;
+			border-color: $green;
+			color: $white;
+		}
+		&:disabled {
+			background: $dark-grey;
+			border-color: $dark-grey;
+			color: $white;
+		}
+		&.disabled {
+			background: $dark-grey;
+			border-color: $dark-grey;
+			color: $white;
+		}
+	}
+	&.btn-outline {
+		background: $white;
+		border-color: $brand;
+		color: $brand;
+		&:hover {
+			background: $white;
+			border-color: $light-green;
+			color: $light-green;
+		}
+		&:focus-visible {
+			background: $white;
+			border-color: $green;
+			color: $green;
+		}
+		&:active {
+			background: $white;
+			border-color: $green;
+			color: $green;
+		}
+		&:disabled {
+			background: $white;
+			border-color: $dark-grey;
+			color: $dark-grey;
+		}
+		&.disabled {
+			background: $white;
+			border-color: $dark-grey;
+			color: $dark-grey;
+		}
+	}
+	&.btn-grey {
+		background: $dark-grey;
+		border-color: $dark-grey;
+		color: $white;
+		svg {
+			color: inherit;
+		}
+		&:hover {
+			background: $dark-grey;
+			border-color: $dark-grey;
+			color: $white;
+		}
+		&:focus-visible {
+			background: $dark-grey;
+			border-color: $dark-grey;
+			color: $white;
+		}
+		&:active {
+			background: $dark-grey;
+			border-color: $dark-grey;
+			color: $white;
+		}
+	}
+	&.btn-outline-grey {
+		background: $white;
+		border-color: $text;
+		color: $text;
+		svg {
+			color: inherit;
+		}
+		&:hover {
+			background: $white;
+			border-color: $text;
+			color: $text;
+		}
+		&:focus-visible {
+			background: $white;
+			border-color: $text;
+			color: $text;
+		}
+		&:active {
+			background: $white;
+			border-color: $text;
+			color: $text;
+		}
+	}
+	&.btn-disabled {
+		cursor: auto;
+		background: $dark-grey;
+		border-color: $dark-grey;
+		color: $white;
+	}
+	/*&.btn-dark {
+		background: $dark-grey-2;
+		border-color: $text-grey;
+		color: $text-light;
+		svg {
+			color: inherit;
+		}
+		&:hover {
+			background: $mid-grey-2;
+			border-color: $text-grey;
+			color: $text-light;
+		}
+		&:focus-visible {
+			background: $dark-grey-3;
+			border-color: $text-grey;
+			color: $text-light;
+		}
+		&:active {
+			background: $dark-grey-3;
+			border-color: $text-grey;
+			color: $text-light;
+		}
+		&:disabled {
+			background: $light-grey;
+			border-color: $text-grey;
+			color: $text-light;
+		}
+		&.disabled {
+			background: $light-grey;
+			border-color: $text-grey;
+			color: $text-light;
+		}
+	}*/
+}

@@ -1,0 +1,77 @@
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+h1, .h1 {
+	font-size: 46px;
+	font-weight: 600;
+	line-height: 56px;
+	@media screen and (max-width: 767.9px) {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	@media screen and (max-width: 565.9px) {
+		font-size: 26px;
+		line-height: 36px;
+	}
+}
+h2, .h2 {
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 36px;
+}
+h3, .h3 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 28px;
+}
+h4, .h4 {
+	
+}
+h5, .h5 {
+	
+}
+h6, .h6 {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18.2px;
+}
+.text-small {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.text-tiny {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.text-big {
+	
+}
+.text-bold {
+	font-weight: 700;
+}
+.text-semibold {
+	font-weight: 600;
+}
+.text-medium {
+	font-weight: 500;
+}
+a {
+	text-decoration: none;
+	&.disabled {
+		pointer-events: none;
+	}
+}
+.custom-link {
+	color: $brand;
+	font-weight: 500;
+}

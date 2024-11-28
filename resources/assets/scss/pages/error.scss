@@ -1,0 +1,51 @@
+.error-page {
+	height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 100px 0;
+    @media screen and (max-width: 991.9px) {
+		text-align: center;
+		padding: 100px 0 50px;
+	}
+	.error-info {
+		@media screen and (max-width: 991.9px) {
+			margin-bottom: 25px;
+		}
+		h1 {
+			font-size: 76px;
+			font-weight: 600;
+			line-height: 44px;
+			text-align: left;
+			color: $text;
+			margin-bottom: 25px;
+			@media screen and (max-width: 991.9px) {
+				text-align: center;
+			}
+			@media screen and (max-width: 767.9px) {
+				font-size: 36px;
+				line-height: 46px;
+			}
+		}
+		p {
+			color: $text;
+			margin-bottom: 25px;
+			@media screen and (max-width: 991.9px) {
+				text-align: center;
+			}
+		}
+		.btn {
+			width: 100%;
+			max-width: 300px;
+		}
+	}
+	.error-image {
+		width: 100%;
+		text-align: center;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}

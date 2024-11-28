@@ -1,0 +1,25 @@
+// Core
+@import "elements/_color-map";
+@import "elements/_fonts";
+@import "elements/_typography";
+@import "elements/_styleguide";
+@import "elements/_buttons";
+@import "elements/_forms";
+
+// Main blocks
+@import "blocks/_header";
+@import "blocks/_main";
+@import "blocks/_footer";
+@import "blocks/_modal";
+@import "blocks/_dashboard";
+@import "blocks/_main-content-block";
+@import "blocks/_tables";
+
+// Pages
+@import "pages/auth.scss";
+@import "pages/catalog.scss";
+@import "pages/card.scss";
+@import "pages/error.scss";
+@import "pages/add-car.scss";
+@import "pages/admin-page.scss";
+@import "pages/wishlist.scss";

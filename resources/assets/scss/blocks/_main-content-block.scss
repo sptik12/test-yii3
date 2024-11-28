@@ -1,0 +1,41 @@
+.main-content-block {
+	width: calc(100% - 300px);
+	padding: 20px;
+	max-height: 100%;
+    overflow-y: auto;
+    .page-top-part {
+    	width: calc(100% + 40px);
+	    margin: 0 -20px;
+	    padding: 20px;
+	    background: #FFFFFF;
+	    position: sticky;
+	    top: -20px;
+	    left: 0;
+	    z-index: 10;
+    }
+	.filters-block {
+		display: inline-flex;
+		align-items: center;
+		gap: 15px;
+		flex-wrap: wrap;		
+		.single-filter {
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			label {
+				margin: 0;
+				font-size: 14px;
+				white-space: nowrap;
+			}
+			input[type="date"] {
+				width: 150px;
+			}
+			.form-select {
+				min-width: 150px;
+			}
+			.input-group {
+				max-width: 150px;
+			}
+		}
+	}
+}
